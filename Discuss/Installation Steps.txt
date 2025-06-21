@@ -1,0 +1,8 @@
+Installation Steps:
+--------------------------------Visual Studio--------------------------------
+--------------------------------Migration------------------------------------
+1) 
+Add-Migration InitialCreate -Context Context -Project HotelBooking.Infrastructure -StartupProject HotelBooking.API
+
+2)
+Update-Database -Context Context -Project HotelBooking.Infrastructure -StartupProject HotelBooking.API
